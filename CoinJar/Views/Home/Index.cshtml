@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Best Buy Assignment";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <b>This ASP.NET MVC application implements a Coin Jar in C# </b>
+                    <br />
+                    <span><b>Roles:</b></span>
+                    <ol>
+                       <li>The coin jar will only accept US coinage and has a volume of 32 fluid ounces</li>
+                       <li>The jar has a counter to keep track of the total amount of money collected</li>
+                       <li>The jar has the ability to reset the count back to $0.00</li>
+                    </ol>
+            </p>
+        </div>
+    </section>
+}
+<div id="content">
+<h3>Assignment :</h3>
+<ol class="round">
+    <li><h5>The design pattern that was used to implement this Coin Jar is Facade .</h5></li>
+    <li>
+        <h5>The list of coins that are implemented in this assignment are:</h5>
+         <table >
+              <tr>
+                  <th> Coin Name</th>
+                  <th> Coin Volume</th>
+                  <th> Coin Value</th>
+              </tr>
+            @{
+              foreach (var coin in ViewBag.USCoinList)
+              {
+                <tr>
+                     <td> @coin.CoinName </td>
+                     <td> @coin.Volume.Unit</td>
+                     <td> @coin.Price.Value</td>
+                </tr>
+              }   
+             }
+         </table>
+    </li>
+
+    <li >
+        <h5> Summary of coins' Amount and Volume that we have in our Coin Jar are:</h5>
+        <table>
+              <tr>
+                  <th> Current Amount</th>
+                  <th> Current Volume</th>
+                  <th> Maximum Volume</th>
+              </tr>
+        @{
+            <tr>
+                <td> @ViewBag.USCoinJar.CurrentAmount.Value </td>
+                <td> @ViewBag.USCoinJar.CurrentVolume.Unit</td>
+                <td> @ViewBag.USCoinJar.MaxVolume.Unit</td>
+            </tr>
+            }   
+        </table>
+    </li>
+    <li>
+        <h5> Created and tested by Akbar Yousefi</h5>
+    </li>
+</ol>
+</div>

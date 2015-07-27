@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="33ca202a-143f-4ecf-9526-5b5774f82496" name="ParhamY@LAPTOP3 2015-07-27 05:49:27" runUser="ALBORZ\ParhamY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f2d593d6-4981-4878-a9ea-b367304a7f06">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ParhamY_LAPTOP3 2015-07-27 05_49_27">
+      <DeploymentItem filename="C:\Users\ParhamY\Documents\Job_Search\BestBuy_Assignment\CoinJar\bin\CoinJar.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-07-27T05:49:27.5912082-07:00" queuing="2015-07-27T05:49:30.2923627-07:00" start="2015-07-27T05:49:30.5433771-07:00" finish="2015-07-27T05:50:32.5449234-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="5" executed="5" passed="4" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LAPTOP3" outcome="Error" timestamp="2015-07-27T05:50:32.5359228-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateANewUSCoin" storage="c:\users\parhamy\documents\job_search\bestbuy_assignment\coinjartest\bin\debug\coinjartest.dll" id="b6365fc0-90ec-cd03-9b8b-e1ca87379a50">
+      <Execution id="7c349616-2a71-4068-b9e4-0afdedc29870" />
+      <TestMethod codeBase="C:/Users/ParhamY/Documents/Job_Search/BestBuy_Assignment/CoinJarTest/bin/Debug/CoinJarTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoinJarTest.UnitTest, CoinJarTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateANewUSCoin" />
+    </UnitTest>
+    <UnitTest name="CreateListOfCoins" storage="c:\users\parhamy\documents\job_search\bestbuy_assignment\coinjartest\bin\debug\coinjartest.dll" id="70da71f8-3699-dd7b-7c94-f7593451ca46">
+      <Execution id="235fc0ed-8eeb-47f1-a9a8-9c5e8e1c6f31" />
+      <TestMethod codeBase="C:/Users/ParhamY/Documents/Job_Search/BestBuy_Assignment/CoinJarTest/bin/Debug/CoinJarTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoinJarTest.UnitTest, CoinJarTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateListOfCoins" />
+    </UnitTest>
+    <UnitTest name="AddOverflowCoin" storage="c:\users\parhamy\documents\job_search\bestbuy_assignment\coinjartest\bin\debug\coinjartest.dll" id="6067e9fe-9137-9320-a850-eeb7a29985b7">
+      <Execution id="8b63ea3e-c353-41a3-a009-d8b6b09354a1" />
+      <TestMethod codeBase="C:/Users/ParhamY/Documents/Job_Search/BestBuy_Assignment/CoinJarTest/bin/Debug/CoinJarTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoinJarTest.UnitTest, CoinJarTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddOverflowCoin" />
+    </UnitTest>
+    <UnitTest name="ResetACoinJar" storage="c:\users\parhamy\documents\job_search\bestbuy_assignment\coinjartest\bin\debug\coinjartest.dll" id="fdab0070-46c5-3838-6e89-3169a59b9c6d">
+      <Execution id="77a884aa-c275-4b2a-af28-31a8ca0cb567" />
+      <TestMethod codeBase="C:/Users/ParhamY/Documents/Job_Search/BestBuy_Assignment/CoinJarTest/bin/Debug/CoinJarTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoinJarTest.UnitTest, CoinJarTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResetACoinJar" />
+    </UnitTest>
+    <UnitTest name="AddCoinToJar" storage="c:\users\parhamy\documents\job_search\bestbuy_assignment\coinjartest\bin\debug\coinjartest.dll" id="2d16f1a3-ac37-3907-c612-cc1ee62414b4">
+      <Execution id="c4fb7fb2-96d1-4a2c-b862-2477c0f0a617" />
+      <TestMethod codeBase="C:/Users/ParhamY/Documents/Job_Search/BestBuy_Assignment/CoinJarTest/bin/Debug/CoinJarTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoinJarTest.UnitTest, CoinJarTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddCoinToJar" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b6365fc0-90ec-cd03-9b8b-e1ca87379a50" executionId="7c349616-2a71-4068-b9e4-0afdedc29870" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70da71f8-3699-dd7b-7c94-f7593451ca46" executionId="235fc0ed-8eeb-47f1-a9a8-9c5e8e1c6f31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d16f1a3-ac37-3907-c612-cc1ee62414b4" executionId="c4fb7fb2-96d1-4a2c-b862-2477c0f0a617" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fdab0070-46c5-3838-6e89-3169a59b9c6d" executionId="77a884aa-c275-4b2a-af28-31a8ca0cb567" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6067e9fe-9137-9320-a850-eeb7a29985b7" executionId="8b63ea3e-c353-41a3-a009-d8b6b09354a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7c349616-2a71-4068-b9e4-0afdedc29870" testId="b6365fc0-90ec-cd03-9b8b-e1ca87379a50" testName="CreateANewUSCoin" computerName="LAPTOP3" duration="00:00:00.0259507" startTime="2015-07-27T05:49:30.7663898-07:00" endTime="2015-07-27T05:49:35.5636642-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c349616-2a71-4068-b9e4-0afdedc29870">
+    </UnitTestResult>
+    <UnitTestResult executionId="235fc0ed-8eeb-47f1-a9a8-9c5e8e1c6f31" testId="70da71f8-3699-dd7b-7c94-f7593451ca46" testName="CreateListOfCoins" computerName="LAPTOP3" duration="00:00:00.0013041" startTime="2015-07-27T05:49:35.5886656-07:00" endTime="2015-07-27T05:49:35.6066667-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="235fc0ed-8eeb-47f1-a9a8-9c5e8e1c6f31">
+    </UnitTestResult>
+    <UnitTestResult executionId="c4fb7fb2-96d1-4a2c-b862-2477c0f0a617" testId="2d16f1a3-ac37-3907-c612-cc1ee62414b4" testName="AddCoinToJar" computerName="LAPTOP3" duration="00:00:00.0023766" startTime="2015-07-27T05:49:35.6336682-07:00" endTime="2015-07-27T05:49:35.6456689-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4fb7fb2-96d1-4a2c-b862-2477c0f0a617">
+    </UnitTestResult>
+    <UnitTestResult executionId="77a884aa-c275-4b2a-af28-31a8ca0cb567" testId="fdab0070-46c5-3838-6e89-3169a59b9c6d" testName="ResetACoinJar" computerName="LAPTOP3" duration="00:00:00.0003847" startTime="2015-07-27T05:49:35.6826710-07:00" endTime="2015-07-27T05:49:35.7336739-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77a884aa-c275-4b2a-af28-31a8ca0cb567">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b63ea3e-c353-41a3-a009-d8b6b09354a1" testId="6067e9fe-9137-9320-a850-eeb7a29985b7" testName="AddOverflowCoin" computerName="LAPTOP3" duration="00:00:56.7782476" startTime="2015-07-27T05:49:35.7666758-07:00" endTime="2015-07-27T05:50:32.5449234-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b63ea3e-c353-41a3-a009-d8b6b09354a1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

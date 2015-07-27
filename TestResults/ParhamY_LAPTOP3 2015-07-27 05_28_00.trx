@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6057d95d-89d4-417a-a92b-2b2399a80cda" name="ParhamY@LAPTOP3 2015-07-27 05:28:00" runUser="ALBORZ\ParhamY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f2d593d6-4981-4878-a9ea-b367304a7f06">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ParhamY_LAPTOP3 2015-07-27 05_28_00">
+      <DeploymentItem filename="C:\Users\ParhamY\Documents\Job_Search\BestBuy_Assignment\CoinJar\bin\CoinJar.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-07-27T05:28:00.7896074-07:00" queuing="2015-07-27T05:28:04.3728123-07:00" start="2015-07-27T05:28:04.5818243-07:00" finish="2015-07-27T05:28:08.6870591-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateListOfCoins" storage="c:\users\parhamy\documents\job_search\bestbuy_assignment\coinjartest\bin\debug\coinjartest.dll" id="70da71f8-3699-dd7b-7c94-f7593451ca46">
+      <Execution id="05ec1f0d-bfda-4422-a50d-c83b294482e1" />
+      <TestMethod codeBase="C:/Users/ParhamY/Documents/Job_Search/BestBuy_Assignment/CoinJarTest/bin/Debug/CoinJarTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoinJarTest.UnitTest, CoinJarTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateListOfCoins" />
+    </UnitTest>
+    <UnitTest name="CreateANewUSCoin" storage="c:\users\parhamy\documents\job_search\bestbuy_assignment\coinjartest\bin\debug\coinjartest.dll" id="b6365fc0-90ec-cd03-9b8b-e1ca87379a50">
+      <Execution id="c1d9912d-5584-4d20-bf1c-0803e4c5fc85" />
+      <TestMethod codeBase="C:/Users/ParhamY/Documents/Job_Search/BestBuy_Assignment/CoinJarTest/bin/Debug/CoinJarTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoinJarTest.UnitTest, CoinJarTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateANewUSCoin" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b6365fc0-90ec-cd03-9b8b-e1ca87379a50" executionId="c1d9912d-5584-4d20-bf1c-0803e4c5fc85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70da71f8-3699-dd7b-7c94-f7593451ca46" executionId="05ec1f0d-bfda-4422-a50d-c83b294482e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c1d9912d-5584-4d20-bf1c-0803e4c5fc85" testId="b6365fc0-90ec-cd03-9b8b-e1ca87379a50" testName="CreateANewUSCoin" computerName="LAPTOP3" duration="00:00:00.0322552" startTime="2015-07-27T05:28:04.6888304-07:00" endTime="2015-07-27T05:28:08.5310502-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1d9912d-5584-4d20-bf1c-0803e4c5fc85">
+    </UnitTestResult>
+    <UnitTestResult executionId="05ec1f0d-bfda-4422-a50d-c83b294482e1" testId="70da71f8-3699-dd7b-7c94-f7593451ca46" testName="CreateListOfCoins" computerName="LAPTOP3" duration="00:00:00.0011906" startTime="2015-07-27T05:28:08.5580517-07:00" endTime="2015-07-27T05:28:08.5670522-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05ec1f0d-bfda-4422-a50d-c83b294482e1">
+    </UnitTestResult>
+  </Results>
+</TestRun>
